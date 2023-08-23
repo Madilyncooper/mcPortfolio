@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-
+<h1>First solo project!</h1>
     </>
   )
 }
