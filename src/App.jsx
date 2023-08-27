@@ -9,7 +9,6 @@ function App() {
   return (
     <>
     <Nav/> 
-<h1>First solo project!</h1>
     </>
   )
 }
