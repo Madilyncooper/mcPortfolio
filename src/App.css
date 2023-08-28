@@ -1,8 +1,11 @@
+
+/* Container for Navigation bar links: "About", "Projects", "Resume" */
 .navList {
     margin-left: 50%;
 
 }
 
+/* "About" link in nav bar */
 .about {
     margin-right: 15%;
     margin-left: -25%;
