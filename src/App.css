@@ -16,10 +16,23 @@
     font-size:50px;
     background-repeat:no-repeat;
 }
-/* Sets height for header name animation */
-/* .nameContainer {
-    position: relative;
-} */
+/* "Cooper" name in header */
+.lastName {
+    font-weight: bold;
+    opacity: .7;
+}
+.lastName:hover {
+    opacity: .02;
+}
+/* "Madilyn" name in header */
+.firstName {
+    font-weight: bolder;
+    opacity: .5;
+}
+
+.firstName:hover {
+    opacity: .02;
+}
 
 /* Header name "Madilyn Cooper */
 .headerName {

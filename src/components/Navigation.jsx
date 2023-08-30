@@ -8,23 +8,24 @@ function Navigation() {
         <>
             <Navbar className='fixed-top p-1' bg="light" data-bs-theme="light">
                 <Container>
-                    <Navbar.Brand className='fs-3' href="#home">
-<div className='nameContainer'>
+                <Navbar.Brand className='fs-3' href="#home">
+                    <div className='nameContainer fs-3'>
                         <div className='headerName'>
-                        <span>M</span>
-                        <span>A</span>
-                        <span>D</span>
-                        <span>I</span>
-                        <span>L</span>
-                        <span>Y</span>
-                        <span>N</span>
+
+                        <span className='firstName'>M</span>
+                        <span className='firstName'>A</span>
+                        <span className='firstName'>D</span>
+                        <span className='firstName'>I</span>
+                        <span className='firstName'>L</span>
+                        <span className='firstName'>Y</span>
+                        <span className='firstName'>N</span>
                         &nbsp; 
-                        <span>C</span>
-                        <span>O</span>
-                        <span>O</span>
-                        <span>P</span>
-                        <span>E</span>
-                        <span>R</span>
+                        <span className='lastName'>C</span>
+                        <span className='lastName'>O</span>
+                        <span className='lastName'>O</span>
+                        <span className='lastName'>P</span>
+                        <span className='lastName'>E</span>
+                        <span className='lastName'>R</span>
                         </div>
                         </div>
                         </Navbar.Brand>
