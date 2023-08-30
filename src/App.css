@@ -1,7 +1,8 @@
 
 /* Container for Navigation bar links: "About", "Projects", "Resume" */
 .navList {
-    margin-left: 20%;
+    margin-left: 70%;
+    position: relative;
 }
 
 /* Homepage Background image */
@@ -15,9 +16,35 @@
     font-size:50px;
     background-repeat:no-repeat;
 }
+/* Sets height for header name animation */
+/* .nameContainer {
+    position: relative;
+} */
 
 /* Header name "Madilyn Cooper */
-.name {
-    font-weight: 500;
+.headerName {
+    font-weight: 300;
     letter-spacing: 2vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 27%;
+    
 }
+
+.headerName span {
+    position: relative;
+    transform: translateY(-100vh);
+    animation: fall 3.5s forwards;
+}
+
+@keyframes fall {
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.headerName span:nth-child(2) {
+    animation-delay: 0.7s;
+}
+

@@ -8,7 +8,26 @@ function Navigation() {
         <>
             <Navbar className='fixed-top p-1' bg="light" data-bs-theme="light">
                 <Container>
-                    <Navbar.Brand className='fs-3 name' href="#home">Madilyn Cooper</Navbar.Brand>
+                    <Navbar.Brand className='fs-3' href="#home">
+<div className='nameContainer'>
+                        <div className='headerName'>
+                        <span>M</span>
+                        <span>A</span>
+                        <span>D</span>
+                        <span>I</span>
+                        <span>L</span>
+                        <span>Y</span>
+                        <span>N</span>
+                        &nbsp; 
+                        <span>C</span>
+                        <span>O</span>
+                        <span>O</span>
+                        <span>P</span>
+                        <span>E</span>
+                        <span>R</span>
+                        </div>
+                        </div>
+                        </Navbar.Brand>
                     <Nav className="me-auto p-4 navList fs-5">
                         <Nav.Link target='blank' className='about' href="#home">About</Nav.Link>
                         <Navbar.Collapse id="navbar-dark-example">
