@@ -8,7 +8,7 @@ function Navigation() {
         <>
             <Navbar className='fixed-top p-1' bg="light" data-bs-theme="light">
                 <Container>
-                <Navbar.Brand className='fs-3' href="#home">
+                <Navbar.Brand href="#home">
                     <div className='nameContainer fs-3'>
                         <div className='headerName'>
 
