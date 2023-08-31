@@ -30,7 +30,7 @@ function Navigation() {
                         </div>
                         </Navbar.Brand>
                     <Nav className="me-auto p-4 navList fs-5">
-                        <Nav.Link target='blank' className='about' href="#home">About</Nav.Link>
+                        <Nav.Link target='blank' className='about' href="/">About</Nav.Link>
                         <Navbar.Collapse id="navbar-dark-example">
                             <Nav >
                                 <NavDropdown
