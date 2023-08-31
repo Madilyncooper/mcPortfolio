@@ -1,5 +1,4 @@
 
-
 /* Container for Navigation bar links: "About", "Projects", "Resume" */
 .navList {
     margin-left: 70%;
@@ -7,7 +6,7 @@
 }
 
 /* Homepage Background image */
-/* .bgImage {
+.bgImage {
     background-image:
     url(
   "https://media.geeksforgeeks.org/wp-content/uploads/rk.png");
@@ -16,7 +15,7 @@
     margin-top: -70px;
     font-size:50px;
     background-repeat:no-repeat;
-} */
+}
 /* "Cooper" name in header */
 .lastName {
     font-weight: bold;
@@ -46,5 +45,19 @@
     
 }
 
+.headerName span {
+    position: relative;
+    transform: translateY(-100vh);
+    animation: fall 3.5s forwards;
+}
 
+@keyframes fall {
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.headerName span:nth-child(2) {
+    animation-delay: 0.7s;
+}
 
