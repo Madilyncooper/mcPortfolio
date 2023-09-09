@@ -1,63 +1,30 @@
-
-/* Container for Navigation bar links: "About", "Projects", "Resume" */
-.navList {
-    margin-left: 70%;
-    position: relative;
+* {
+    background-color: black;
 }
 
-/* Homepage Background image */
-.bgImage {
-    background-image:
-    url(
-  "https://media.geeksforgeeks.org/wp-content/uploads/rk.png");
-    background-size: "cover";
-    height: 100vh;
-    margin-top: -70px;
-    font-size:50px;
-    background-repeat:no-repeat;
-}
-/* "Cooper" name in header */
-.lastName {
-    font-weight: bold;
-    opacity: .7;
-}
-.lastName:hover {
-    opacity: .02;
-}
-/* "Madilyn" name in header */
-.firstName {
-    font-weight: bolder;
-    opacity: .5;
+/* Home page name "Madilyn Cooper" */
+
+.name {
+    font-size: 60px;
+    justify-content: center;
+    letter-spacing: 20px;
+    margin-top: 25%;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
-.firstName:hover {
-    opacity: .02;
-}
+/* "Madilyn Cooper" homepage glow animation */
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+        opacity: .5;
+    }
 
-/* Header name "Madilyn Cooper */
-.headerName {
-    font-weight: 300;
-    letter-spacing: 2vw;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 27%;
-    
-}
-
-.headerName span {
-    position: relative;
-    transform: translateY(-100vh);
-    animation: fall 3.5s forwards;
-}
-
-@keyframes fall {
-    100% {
-        transform: translateY(0);
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #fff;
+        opacity: 1;
     }
 }
-
-.headerName span:nth-child(2) {
-    animation-delay: 0.7s;
-}
-
