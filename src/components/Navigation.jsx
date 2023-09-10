@@ -5,9 +5,16 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Navigation() {
     return (
-        <>
-        <h1>Hello navigation</h1>
-            {/* /<Navbar className='fixed-top p-1' bg="light" data-bs-theme="light">
+        <div className='navContainer'>
+            <h1 className='explore'>Get <br></br>to Know Me</h1>
+            <ul className='navList'>
+                <li><a className='about'>About</a></li>
+                <li><a className='projects'>Projects</a></li>
+                <li><a className='resume'>Resume</a></li>
+                <li><a className='linkedIn'>LinkedIn</a></li>
+                <li><a className='gitHub'>Github</a></li>
+            </ul>
+            {/* <Navbar className='fixed-top p-1' bg="light" data-bs-theme="light">
                 <Container>
                     <Nav className="me-auto p-4 navList fs-5">
                         <Nav.Link target='blank' className='about' href="/about">About</Nav.Link>
@@ -35,7 +42,7 @@ function Navigation() {
                     </Nav>
                 </Container>
             </Navbar>  */}
-        </>
+        </div>
     );
 }
 

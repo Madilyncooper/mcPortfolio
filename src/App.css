@@ -7,8 +7,8 @@
     display: flex;
     justify-content: center;
     margin-top: 25%;
-    font-size: 60px;    
-    letter-spacing: 20px;
+    font-size: 70px;
+    letter-spacing: 15px;
     color: #fff;
     -webkit-animation: glow 1.2s ease-in-out infinite alternate;
     -moz-animation: glow 1.2s ease-in-out infinite alternate;
@@ -18,12 +18,12 @@
 /* "Madilyn Cooper" homepage glow animation */
 @-webkit-keyframes glow {
     from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+        text-shadow: 0 0 5px #fff;
         opacity: .16;
     }
 
     to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #fff;
+        text-shadow: 0 0 10px #fff;
         opacity: 1;
     }
 }
@@ -34,7 +34,37 @@
 }
 
 /* Home page navigation and name header container */
-
 .homePage:hover .nav {
-visibility: visible;
+    visibility: visible;
+}
+
+.homePage:hover .name {
+    visibility: hidden;
+}
+
+/* Navigation "Get to Know Me" header */
+.explore {
+    color: white;
+    font-size: 60px;
+    text-shadow: 0 0 4px #fff;
+    letter-spacing: 10px;
+    margin-left: 80%;
+    margin-top: -45%;
+}
+
+/* Navigation list menu */
+.navList {
+    margin-left: 175%;
+    margin-top: -50%;
+    list-style-type: none;
+    display: flex;
+    flex-flow: wrap;
+
+
+}
+
+/* Individual navigation links */
+.about, .projects, .resume, .linkedIn, .gitHub {
+    color: white;
+    text-decoration: none;
 }
