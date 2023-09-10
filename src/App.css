@@ -100,6 +100,7 @@ cursor: pointer;
     display: flex;
     align-items: center;
     text-decoration: none;
+    margin-left: 55%;
 }
 
 /* "Projects" and projects image hover effects */
@@ -108,6 +109,41 @@ cursor: pointer;
 }
 
 .projectParent:hover .projects {
+    visibility: visible;
+}
+
+/* "Resume" and resume image in navigation */
+.resumeParent {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: -15%;
+}
+
+/* "resume" and resume image hover effects */
+.resumeParent .resume {
+    visibility: hidden;
+}
+
+.resumeParent:hover .resume {
+    visibility: visible;
+}
+
+/* "contact" and contact image in navigation */
+.contactParent {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 120%;
+    margin-top: -35%;
+}
+
+/* "contact" and contact image hover effects */
+.contactParent .contact {
+    visibility: hidden;
+}
+
+.contactParent:hover .contact {
     visibility: visible;
 }
 
