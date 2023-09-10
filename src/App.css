@@ -3,28 +3,38 @@
 }
 
 /* Home page name "Madilyn Cooper" */
-
 .name {
-    font-size: 60px;
+    display: flex;
     justify-content: center;
-    letter-spacing: 20px;
     margin-top: 25%;
+    font-size: 60px;    
+    letter-spacing: 20px;
     color: #fff;
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    -webkit-animation: glow 1.2s ease-in-out infinite alternate;
+    -moz-animation: glow 1.2s ease-in-out infinite alternate;
+    animation: glow 1.2s ease-in-out infinite alternate;
 }
 
 /* "Madilyn Cooper" homepage glow animation */
 @-webkit-keyframes glow {
     from {
         text-shadow: 0 0 10px #fff, 0 0 20px #fff;
-        opacity: .5;
+        opacity: .16;
     }
 
     to {
         text-shadow: 0 0 20px #fff, 0 0 30px #fff;
         opacity: 1;
     }
+}
+
+/* Navigation menu */
+.nav {
+    visibility: hidden;
+}
+
+/* Home page navigation and name header container */
+
+.homePage:hover .nav {
+visibility: visible;
 }
