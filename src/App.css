@@ -54,17 +54,33 @@
 
 /* Navigation list menu */
 .navList {
-    margin-left: 175%;
-    margin-top: -50%;
     list-style-type: none;
     display: flex;
-    flex-flow: wrap;
-
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 150%;
+    margin-top: -75%;
 
 }
 
 /* Individual navigation links */
-.about, .projects, .resume, .linkedIn, .gitHub {
+.about, .projects, .resume, .contact, .gitHub {
     color: white;
     text-decoration: none;
+    font-size: 30px;
+    border-style: solid;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
 }
+
+.about:hover, .projects:hover, .resume:hover, .contact:hover, .gitHub:hover {
+cursor: pointer;
+font-size: 60px;
+text-shadow: 0 0 5px #fff;
+}
+
+
+

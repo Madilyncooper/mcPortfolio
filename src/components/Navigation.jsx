@@ -11,8 +11,7 @@ function Navigation() {
                 <li><a className='about'>About</a></li>
                 <li><a className='projects'>Projects</a></li>
                 <li><a className='resume'>Resume</a></li>
-                <li><a className='linkedIn'>LinkedIn</a></li>
-                <li><a className='gitHub'>Github</a></li>
+                <li><a className='contact'>Contact</a></li>
             </ul>
             {/* <Navbar className='fixed-top p-1' bg="light" data-bs-theme="light">
                 <Container>
