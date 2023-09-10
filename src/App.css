@@ -6,7 +6,7 @@
 .name {
     display: flex;
     justify-content: center;
-    margin-top: 25%;
+    margin-top: 20%;
     font-size: 70px;
     letter-spacing: 15px;
     color: #fff;
@@ -18,12 +18,12 @@
 /* "Madilyn Cooper" homepage glow animation */
 @-webkit-keyframes glow {
     from {
-        text-shadow: 0 0 5px #fff;
+        text-shadow: 0 0 0px #fff;
         opacity: .16;
     }
 
     to {
-        text-shadow: 0 0 10px #fff;
+        text-shadow: 0 0 2px #fff;
         opacity: 1;
     }
 }
@@ -33,7 +33,7 @@
     visibility: hidden;
 }
 
-/* Home page navigation and name header container */
+/* Home page navigation and name header container for hover effects */
 .homePage:hover .nav {
     visibility: visible;
 }
@@ -46,7 +46,7 @@
 .explore {
     color: white;
     font-size: 60px;
-    text-shadow: 0 0 4px #fff;
+    text-shadow: 0 0 2px #fff;
     letter-spacing: 10px;
     margin-left: 80%;
     margin-top: -45%;
@@ -68,19 +68,53 @@
 .about, .projects, .resume, .contact, .gitHub {
     color: white;
     text-decoration: none;
-    font-size: 30px;
-    border-style: solid;
+    font-size: 20px;
     display: flex;
     padding: 15px;
     margin-bottom: 30px;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
 }
 
 .about:hover, .projects:hover, .resume:hover, .contact:hover, .gitHub:hover {
 cursor: pointer;
-font-size: 60px;
-text-shadow: 0 0 5px #fff;
 }
 
+/* "About Me" and about image in navigation */
+.aboutParent {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* "About Me" and about image hover effects */
+.aboutParent .about {
+    visibility: hidden;
+}
+
+.aboutParent:hover .about {
+    visibility: visible;
+}
+
+/* "Projects" and projects image in navigation */
+.projectParent {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* "Projects" and projects image hover effects */
+.projectParent .projects {
+    visibility: hidden;
+}
+
+.projectParent:hover .projects {
+    visibility: visible;
+}
+
+/* Hamburger Menu image */
+.burger {
+    margin-top: 2%;
+    margin-left: 2%;
+}
 
 

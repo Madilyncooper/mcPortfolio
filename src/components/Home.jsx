@@ -1,20 +1,19 @@
 import Navigation from "./Navigation";
-import Hamburger from "../assets/Hamburger.png";
+import Hamburger from "../components/Hamburger";
 
 
-function Home () {
-return (
-    <>
-    <img   src={Hamburger}
-  alt="Grapefruit slice atop a pile of other slices"></img>
-    <div className="homePage">
-    <h1 className="name">Madilyn Cooper</h1>
-    <div className="nav">
-    <Navigation />
-    </div>
-    </div>
-    </>
-)
+
+function Home() {
+    return (
+        <>
+            <div className="homePage">
+                <h1 className="name">Madilyn Cooper</h1>
+                <div className="nav">
+                    <Navigation />
+                </div>
+            </div>
+        </>
+    )
 }
 
 export default Home;
