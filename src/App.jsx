@@ -3,8 +3,10 @@ import './App.css';
 import Navigation from '../src/components/Navigation'
 import Home from './components/Home';
 import About from './components/About';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Hamburger from './components/Hamburger';
+import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 
 
@@ -26,6 +28,7 @@ function App() {
           />
         </Routes>
       </Router>
+      <Footer />
     </>
   )
 }
