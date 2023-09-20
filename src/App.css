@@ -153,14 +153,42 @@ cursor: pointer;
     margin-left: 2%;
 }
 
+/* Container for all pictures on about page */
+.picContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: fixed;
+}
 
-/* Photo of Madilyn Cooper on About page */
-/* .madilynPic {
-   height: 25%;
-   width: 25%;
-   border-radius: 3rem;
+/* Photos of Madilyn Cooper and hobbies on About page */
+.madilynPic, .partnerPic, .rockPic,.beachPic {
+   height: 10%;
+   width: 10%;
+   border-radius: 100%;
+   filter: grayscale(100%);
+   transition: transform .7s;
+   margin: 5px;
+}
+
+.madilynPic:hover, .partnerPic:hover, .rockPic:hover, .beachPic:hover {
+    filter: none;
+    height: 15%;
+    width: 15%;
+    transform: scale(1.5);
+}
+
+/* About page middle section container (questions and answers about me) */
+/* .aboutInfoContainer {
+    margin-top: 40%;
+    background-color: white;
+    height: 100%;
+}
+
+.page, .header {
+    background-color: white;
 } */
-
 
 
 
