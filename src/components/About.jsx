@@ -28,10 +28,14 @@ function About() {
                     alt="Portrait of Madilyn Cooper">
                 </img>
             </div>
-            <div className='aboutInfoContainer'>
-                <h1 className='header'>About me</h1>
-<p className='page'>Hello about page Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam eos et suscipit, voluptas quas tempora quisquam quo sunt dolor omnis eaque fuga alias harum accusantium nisi optio veritatis facere in!</p>
-            </div>
+<div className='aboutInfo'>
+    <h1>"If our goal is to be tolerant of people who are different than we are, then we really are aiming quite low. Traffic jams are to be tolerated. People are to be celebrated."</h1>
+    <p>Glennon Doyle</p>
+</div>
+            {/* <div className='aboutInfoContainer'> */}
+                {/* <h1 className='header'>About me</h1> */}
+{/* <p className='page'>Hello about page Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam eos et suscipit, voluptas quas tempora quisquam quo sunt dolor omnis eaque fuga alias harum accusantium nisi optio veritatis facere in!</p> */}
+            {/* </div> */}
         </>
     )
 }
