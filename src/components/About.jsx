@@ -30,7 +30,7 @@ function About() {
             </div>
 <div className='aboutInfo'>
     <h1>"If our goal is to be tolerant of people who are different than we are, then we really are aiming quite low. Traffic jams are to be tolerated. People are to be celebrated."</h1>
-    <p>Glennon Doyle</p>
+    <p className='authorName'>Glennon Doyle</p>
 </div>
             {/* <div className='aboutInfoContainer'> */}
                 {/* <h1 className='header'>About me</h1> */}

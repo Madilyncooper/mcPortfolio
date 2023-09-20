@@ -2,7 +2,7 @@
     background-color: black;
 }
 
-/* Home page name "Madilyn Cooper" */
+/* Home.jsx page name "Madilyn Cooper" */
 .name {
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@
     animation: glow 1.2s ease-in-out infinite alternate;
 }
 
-/* "Madilyn Cooper" homepage glow animation */
+/* "Madilyn Cooper" Home.jsx glow animation */
 @-webkit-keyframes glow {
     from {
         text-shadow: 0 0 0px #fff;
@@ -28,12 +28,12 @@
     }
 }
 
-/* Navigation menu */
+/* Navigation menu container on Home.jsx*/
 .nav {
     visibility: hidden;
 }
 
-/* Home page navigation and name header container for hover effects */
+/* Home.jsx page navigation and name header container for hover effects */
 .homePage:hover .nav {
     visibility: visible;
 }
@@ -42,7 +42,7 @@
     visibility: hidden;
 }
 
-/* Navigation "Get to Know Me" header */
+/* Navigation.jsx "Get to Know Me" header */
 .explore {
     color: white;
     font-size: 60px;
@@ -52,7 +52,7 @@
     margin-top: -45%;
 }
 
-/* Navigation list menu */
+/* Navigation list menu in Navigation.jsx */
 .navList {
     list-style-type: none;
     display: flex;
@@ -64,7 +64,7 @@
 
 }
 
-/* Individual navigation links */
+/* Individual navigation links in Navigation.jsx */
 .about, .projects, .resume, .contact, .gitHub {
     color: white;
     text-decoration: none;
@@ -79,14 +79,14 @@
 cursor: pointer;
 }
 
-/* "About Me" and about image in navigation */
+/* "About Me" and about image in Navigation.jsx */
 .aboutParent {
     display: flex;
     align-items: center;
     text-decoration: none;
 }
 
-/* "About Me" and about image hover effects */
+/* "About Me" and about image hover effects Navigation.jsx */
 .aboutParent .about {
     visibility: hidden;
 }
@@ -95,7 +95,7 @@ cursor: pointer;
     visibility: visible;
 }
 
-/* "Projects" and projects image in navigation */
+/* "Projects" and projects image in Navigation.jsx */
 .projectParent {
     display: flex;
     align-items: center;
@@ -103,7 +103,7 @@ cursor: pointer;
     margin-left: 55%;
 }
 
-/* "Projects" and projects image hover effects */
+/* "Projects" and projects image hover effects in Navigation.jsx */
 .projectParent .projects {
     visibility: hidden;
 }
@@ -112,7 +112,7 @@ cursor: pointer;
     visibility: visible;
 }
 
-/* "Resume" and resume image in navigation */
+/* "Resume" and resume image in Navigation.jsx */
 .resumeParent {
     display: flex;
     align-items: center;
@@ -120,7 +120,7 @@ cursor: pointer;
     margin-left: -15%;
 }
 
-/* "resume" and resume image hover effects */
+/* "resume" and resume image hover effects in Navigation.jsx*/
 .resumeParent .resume {
     visibility: hidden;
 }
@@ -129,7 +129,7 @@ cursor: pointer;
     visibility: visible;
 }
 
-/* "contact" and contact image in navigation */
+/* "contact" and contact image in Navigation.jsx */
 .contactParent {
     display: flex;
     align-items: center;
@@ -153,7 +153,7 @@ cursor: pointer;
     margin-left: 2%;
 }
 
-/* Container for all pictures on about page */
+/* Container for all pictures on About.jsx page*/
 .picContainer {
     display: flex;
     flex-wrap: wrap;
@@ -162,7 +162,7 @@ cursor: pointer;
     position: fixed;
 }
 
-/* Photos of Madilyn Cooper and hobbies on About page */
+/* Photos of Madilyn Cooper and hobbies on About.jsx page */
 .madilynPic, .partnerPic, .rockPic,.beachPic {
    height: 10%;
    width: 10%;
@@ -179,17 +179,7 @@ cursor: pointer;
     transform: scale(1.5);
 }
 
-/* About page middle section container (questions and answers about me) */
-/* .aboutInfoContainer {
-    margin-top: 40%;
-    background-color: white;
-    height: 100%;
-}
-
-.page, .header {
-    background-color: white;
-} */
-
+/* Container for author quote on About.jsx page */
 .aboutInfo {
     margin-top: 27%;
     margin-left: 40%;
