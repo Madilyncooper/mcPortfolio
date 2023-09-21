@@ -206,7 +206,7 @@
     margin-top: 15%;
 }
 
-/* Location, Number, Email in Footer.jsx */
+/* Container for Location, Number, Email in Footer.jsx */
 .contactInfo {
     display: flex;
     flex-direction: column;
@@ -215,10 +215,39 @@
     margin: 20px;
 }
 
-.number, .location, .email {
+/* Number, Location, and Email in Footer.jsx */
+.number,
+.location,
+.email {
     margin-top: 5px;
 }
 
-.email img, .number img, .location img {
+/* Images for Number, Email, and Location in Footer.jsx */
+.email img,
+.number img,
+.location img {
     margin-right: 10px;
+}
+
+/* Contact Links container Footer.jsx */
+.contactLinks {
+    display: flex;
+    margin-top: 7%;
+    margin-left: 20%;
+
+}
+/* Individual links for contact info in Footer.jsx */
+.linksInfo a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Individual links list element for contact info in Footer.jsx */
+.linksInfo {
+    list-style: none;
+    margin-left: 70%;
+}
+
+.linksInfo a:hover {
+color: rgb(82, 82, 82);
 }

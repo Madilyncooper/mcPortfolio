@@ -29,9 +29,21 @@ function Footer() {
                 </li>
             </ul>
             <ul className="contactLinks">
-                <li><a></a></li>
-                <li><a></a></li>
-                <li><a></a></li>
+                <li className='linksInfo'>
+                    <a href='#'>
+GitHub
+                    </a>
+                </li>
+                <li className='linksInfo'>
+                    <a href='#'>
+LinkedIn
+                    </a>
+                </li>
+                <li className='linksInfo'>
+                    <a href='#'>
+Resume
+                    </a>
+                </li>
             </ul>
         </div>
     )
