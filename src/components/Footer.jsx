@@ -30,17 +30,17 @@ function Footer() {
             </ul>
             <ul className="contactLinks">
                 <li className='linksInfo'>
-                    <a href='#'>
+                    <a target={'_blank'} href='https://github.com/Madilyncooper'>
 GitHub
                     </a>
                 </li>
                 <li className='linksInfo'>
-                    <a href='#'>
+                    <a target={'_blank'} href='https://www.linkedin.com/in/madilyn-cooper'>
 LinkedIn
                     </a>
                 </li>
                 <li className='linksInfo'>
-                    <a href='#'>
+                    <a target={'_blank'} href='https://docs.google.com/document/d/17hIFSzhCEs0dAwyi7bsUO2TpJRhqiTAGYA9ApXO62s8/edit?usp=sharing'>
 Resume
                     </a>
                 </li>
