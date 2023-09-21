@@ -194,14 +194,31 @@
     transform: scale(1.5);
 }
 
-/* Container for author quote on About.jsx page */
-.aboutInfo {
-    margin-top: 27%;
-    margin-left: 40%;
+/* Container bio on About.jsx page */
+.bio {
+    margin-top: 25%;
     margin-right: 8%;
 }
 
-/* Author name in About.jsx */
-.authorName {
-    margin-left: 2%;
+/* Footer.jsx Container */
+.footerContainer {
+    display: flex;
+    margin-top: 15%;
+}
+
+/* Location, Number, Email in Footer.jsx */
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: white;
+    margin: 20px;
+}
+
+.number, .location, .email {
+    margin-top: 5px;
+}
+
+.email img, .number img, .location img {
+    margin-right: 10px;
 }

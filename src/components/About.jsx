@@ -28,13 +28,10 @@ function About() {
                     alt="Portrait of Madilyn Cooper">
                 </img>
             </div>
-            <div className='aboutInfo'>
+            <div className='bio'>
                 <h1>
-                    "If our goal is to be tolerant of people who are different than we are, then we really are aiming quite low. Traffic jams are to be tolerated. People are to be celebrated."
+                
                 </h1>
-                <p className='authorName fs-5'>
-                    Glennon Doyle
-                </p>
             </div>
         </>
     )
