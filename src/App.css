@@ -208,18 +208,46 @@
 .skills {
     display: flex;
     flex-direction: row;
-    margin-top: 45%;
+    margin-top: 43%;
     margin-left: 5%;
 }
 
 
 /* Container bio on About.jsx page */
 .bio {
-    margin-top: 30%;
+    margin-top: 20%;
     margin-right: 8%;
     margin-bottom: 30%;
 }
 
+/* Who, Why and What sections in About.jsx */
+.who,
+.what,
+.why {
+    margin-bottom: 10%;
+    display: flex;
+    border: #fff 2px solid;
+    background-color: white;
+    margin-left: 5%;
+}
+
+/* h1 and p elements for Who, Why and What sections in About.jsx  */
+.who h1,
+.who p,
+.what h1,
+.what p,
+.why p,
+.why h1 {
+background-color: white;
+
+}
+
+/* p element for Who, Why and What sections in About.jsx */
+.who p,
+.what p,
+.why p {
+    margin-left: 25%;
+}
 /* Footer.jsx Container for everything in footer*/
 .footerContainer {
     display: flex;
