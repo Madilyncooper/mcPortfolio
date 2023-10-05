@@ -161,57 +161,45 @@
     margin-left: 2%;
 }
 
-/* Container for all pictures on About.jsx page*/
+/* Container for picture of Madilyn on About.jsx page*/
 .picContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row-reverse;
-    position: fixed;
-    background-color: rgb(0, 0, 0, .1);
+    margin-left: 10%;
+    margin-top: 10%;
 }
 
-/* Photos of Madilyn Cooper and hobbies on About.jsx page */
-.madilynPic,
-.partnerPic,
-.rockPic,
-.beachPic {
-    height: 10%;
-    width: 10%;
-    border-radius: 100%;
+/* Photo of Madilyn Cooper on About.jsx page */
+.madilynPic {
+    height: 20%;
+    width: 20%;
+    border-radius: 15%;
     filter: grayscale(100%);
     transition: transform .7s;
-    margin: 5px;
-    margin-top: 5%;
+    margin: 40px;
 }
-
-.madilynPic:hover,
-.partnerPic:hover,
-.rockPic:hover,
-.beachPic:hover {
+.madilynPic:hover {
     filter: none;
-    height: 15%;
-    width: 15%;
+    height: 20%;
+    width: 20%;
     transform: scale(1.5);
 }
 
-/* Individual Skills on About.jsx */
-.problemSolver,
-.creative,
-.leader,
-.teamOriented,
-.passionate {
-    margin: 10px;
+/* Container for quote, and quote author on About.jsx */
+.quoteContainer {
+margin-left: 45%;
+ margin-right: 15%;
+ letter-spacing: 5px;
+ margin-top: -25%;
 }
 
-/* Skills container About.jsx */
-.skills {
-    display: flex;
-    flex-direction: row;
-    margin-top: 43%;
-    margin-left: 5%;
+/* Text of quote on About.jsx */
+.quoteText {
+    line-height: 1.5;
 }
 
+/* Quote Author name on About.jsx */
+.quoteAuthor {
+    margin-top: 20px;
+}
 
 /* Container bio on About.jsx page */
 .bio {

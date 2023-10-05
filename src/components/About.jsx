@@ -1,39 +1,20 @@
 import MadilynPic from '../assets/MadilynPic.png';
-import PartnerPic from '../assets/PartnerPic.png';
-import RockClimb from '../assets/RockClimb.png';
-import BeachPic from '../assets/BeachPic.png';
 
 function About() {
     return (
         <>
             <div className='picContainer'>
                 <img
-                    className="rockPic"
-                    src={RockClimb}
-                    alt="Madilyn Cooper belaying someone at a rock climbing gym">
-                </img>
-                <img
-                    className="partnerPic"
-                    src={PartnerPic}
-                    alt="Madilyn Cooper and her life partner Monica">
-                </img>
-                <img
-                    className="beachPic"
-                    src={BeachPic}
-                    alt="Manhattan Beach pier overlooking the beach with rainbow lifeguard tower">
-                </img>
-                <img
                     className="madilynPic"
                     src={MadilynPic}
                     alt="Portrait of Madilyn Cooper">
                 </img>
             </div>
-            <div className='skills'>
-                <p className='problemSolver fs-1'>Problem Solver.</p>
-                <p className='creative fs-1'>Creative.</p>
-                <p className='leader fs-1'>Leader.</p>
-                <p className='teamOriented fs-1'>Team Oriented.</p>
-                <p className='passionate fs-1'>Passionate.</p>
+            <div className='quoteContainer'>
+<h2 className='quoteText fs-1'>
+“Diversity is not about how we differ. Diversity is about embracing one another's uniqueness.” 
+</h2>
+<p className='quoteAuthor'>-Ola Joseph</p>
             </div>
             <div className='bio'>
                 <div className='who'>
