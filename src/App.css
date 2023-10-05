@@ -176,6 +176,7 @@
     transition: transform .7s;
     margin: 40px;
 }
+
 .madilynPic:hover {
     filter: none;
     height: 20%;
@@ -185,10 +186,10 @@
 
 /* Container for quote, and quote author on About.jsx */
 .quoteContainer {
-margin-left: 45%;
- margin-right: 15%;
- letter-spacing: 5px;
- margin-top: -25%;
+    margin-left: 45%;
+    margin-right: 15%;
+    letter-spacing: 5px;
+    margin-top: -25%;
 }
 
 /* Text of quote on About.jsx */
@@ -203,18 +204,47 @@ margin-left: 45%;
 
 /* Who,what,why container on About.jsx page */
 .bio {
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
-/* Who, Why and What sections in About.jsx */
+/* Who  and Why section in About.jsx */
+.who h1,
+.why h1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+.who p,
+.why p {
+    margin-right: 15%;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
 .who,
-.what,
-.why {
-    display: flex;
+.why,
+.what {
+    padding: 10%;
 }
 
-/* p element for Who section in About.jsx */
+/* What section in About.jsx */
+.what h1 {
+    margin-left: 25%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.what p {
+color: white;
+text-align: center;
+font-size: 20px;
+line-height: 1.5;
+}
 
 
 /* who and why in About.jsx */
@@ -224,16 +254,7 @@ margin-left: 45%;
 .why h1,
 .who p,
 .why p {
-background-color: white;
-}
-
-
-/* Who, What, and Why text for About.jsx */
-.who p,
-.what p,
-.why p {
-    font-size: 20px;
-    line-height: 1.5;
+    background-color: white;
 }
 
 /* Footer.jsx Container for everything in footer*/
@@ -271,6 +292,7 @@ background-color: white;
     margin-left: 20%;
 
 }
+
 /* Individual links for contact info in Footer.jsx */
 .linksInfo a {
     color: white;
@@ -284,5 +306,5 @@ background-color: white;
 }
 
 .linksInfo a:hover {
-color: rgb(82, 82, 82);
+    color: rgb(82, 82, 82);
 }

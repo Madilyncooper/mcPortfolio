@@ -11,10 +11,10 @@ function About() {
                 </img>
             </div>
             <div className='quoteContainer'>
-<h2 className='quoteText fs-1'>
-“Diversity is not about how we differ. Diversity is about embracing one another's uniqueness.” 
-</h2>
-<p className='quoteAuthor'>-Ola Joseph</p>
+                <h2 className='quoteText fs-1'>
+                    “Diversity is not about how we differ. Diversity is about embracing one another's uniqueness.”
+                </h2>
+                <p className='quoteAuthor'>-Ola Joseph</p>
             </div>
             <div className='bio'>
                 <div className='who'>
@@ -30,15 +30,16 @@ function About() {
                 </div>
 
                 <div className='what'>
-                    <p>
-                        My background in the arts has given me invaluable communication, emotional, and creative
-                        skills. These skills shape my pursuit to be a kindhearted and thoughtful
-                        colleague. My imagination allows me to think outside of the box, and I am forever committed 
-                        growth.
-                    </p>
                     <h1>
                         What do I bring to the table?
                     </h1>
+                    <p>
+                        My background in the arts has given me invaluable communication, emotional, and creative
+                        skills. These skills shape my pursuit to be a kindhearted and thoughtful
+                        colleague. My imagination allows me to think outside of the box, and I am forever committed
+                        growth.
+                    </p>
+
                 </div>
 
                 <div className='why'>
@@ -47,7 +48,7 @@ function About() {
                     </h1>
                     <p>
                         As a queer, black woman in tech, I take pride in bridging the gap between marginalized
-                        communities and the accessibility into this field. I have been 
+                        communities and the accessibility into this field. I have been
                     </p>
                 </div>
 
