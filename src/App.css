@@ -201,45 +201,45 @@ margin-left: 45%;
     margin-top: 20px;
 }
 
-/* Container bio on About.jsx page */
+/* Who,what,why container on About.jsx page */
 .bio {
     margin-top: 20%;
-    margin-right: 8%;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
 }
 
 /* Who, Why and What sections in About.jsx */
 .who,
 .what,
 .why {
-    margin-bottom: 10%;
     display: flex;
-    border: #fff 2px solid;
-    background-color: white;
-    margin-left: 5%;
 }
 
-/* h1 and p elements for Who, Why and What sections in About.jsx  */
+/* p element for Who section in About.jsx */
+
+
+/* who and why in About.jsx */
+.who,
 .who h1,
+.why,
+.why h1,
 .who p,
-.what h1,
-.what p,
-.why p,
-.why h1 {
+.why p {
 background-color: white;
-
 }
 
-/* p element for Who, Why and What sections in About.jsx */
+
+/* Who, What, and Why text for About.jsx */
 .who p,
 .what p,
 .why p {
-    margin-left: 25%;
+    font-size: 20px;
+    line-height: 1.5;
 }
+
 /* Footer.jsx Container for everything in footer*/
 .footerContainer {
     display: flex;
-    margin-top: 15%;
+    margin-top: 6%;
 }
 
 /* Container for Location, Number, Email in Footer.jsx */
@@ -248,7 +248,6 @@ background-color: white;
     flex-direction: column;
     list-style: none;
     color: white;
-    margin: 20px;
 }
 
 /* Number, Location, and Email in Footer.jsx */

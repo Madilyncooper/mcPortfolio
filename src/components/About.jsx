@@ -30,17 +30,15 @@ function About() {
                 </div>
 
                 <div className='what'>
+                    <p>
+                        My background in the arts has given me invaluable communication, emotional, and creative
+                        skills. These skills shape my pursuit to be a kindhearted and thoughtful
+                        colleague. My imagination allows me to think outside of the box, and I am forever committed 
+                        growth.
+                    </p>
                     <h1>
                         What do I bring to the table?
                     </h1>
-                    <p>
-                        My background in the arts has given me invaluable communication, emotional, and creative
-                        skills. These skills have helped shape my pursuit to be a kindhearted and thoughtful
-                        colleague, and lend themselves to my ability to constructively think outside the box .
-                        I find joy in collaborating with others to produce the highest quality product, and I excel in
-                        team leadership roles. I am forever committed to growth, whether that be individually, or collectively
-                        with my team.
-                    </p>
                 </div>
 
                 <div className='why'>
