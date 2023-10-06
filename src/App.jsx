@@ -6,6 +6,7 @@ import About from './components/About';
 import Hamburger from './components/Hamburger';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -30,6 +31,10 @@ function App() {
           <Route
             path="/projects"
             element={<Projects />}
+          />
+          <Route
+            path="/contact"
+            element={<Contact />}
           />
         </Routes>
       </Router>

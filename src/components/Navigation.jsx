@@ -40,7 +40,7 @@ function Navigation() {
                     </Link>
                 </li>
                 <li>
-                    <Link className='contactParent'>
+                    <Link className='contactParent' to="/contact">
                         <img
                             src={ContactIcon}
                             alt="paperclip" />
