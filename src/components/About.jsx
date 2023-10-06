@@ -48,7 +48,7 @@ function About() {
                     </h1>
                     <p>
                         As a queer, black woman in tech, I take pride in bridging the gap between marginalized
-                        communities and the accessibility into this field. I have been
+                        communities and the accessibility into this field.
                     </p>
                 </div>
 

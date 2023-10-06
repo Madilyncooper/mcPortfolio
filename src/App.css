@@ -244,6 +244,7 @@ color: white;
 text-align: center;
 font-size: 20px;
 line-height: 1.5;
+margin-top: 5%;
 }
 
 
@@ -256,6 +257,15 @@ line-height: 1.5;
 .why p {
     background-color: white;
 }
+
+/* Container for project cards on Projects.jsx */
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
 
 /* Footer.jsx Container for everything in footer*/
 .footerContainer {
