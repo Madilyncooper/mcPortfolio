@@ -25,7 +25,7 @@ function Contact () {
         <div className='row'>
           <div className='col-12 text-center'>
             <div className='contactForm'>
-              <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
+              <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate className='contactForm'>
                 {/* Row 1 of form */}
                 <div className='row formRow'>
                   <div className='col-6'>
@@ -39,7 +39,7 @@ function Contact () {
                           message: 'Please use 30 characters or less'
                         }
                       })}
-                      className='form-control formInput'
+                      className='form-control formInput mb-3'
                       placeholder='Name'
                     ></input>
                     {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
@@ -73,7 +73,7 @@ function Contact () {
                           message: 'Subject cannot exceed 75 characters'
                         }
                       })}
-                      className='form-control formInput'
+                      className='form-control formInput mb-3'
                       placeholder='Subject'
                     ></input>
                     {errors.subject && (
@@ -90,13 +90,13 @@ function Contact () {
                       {...register('message', {
                         required: true
                       })}
-                      className='form-control formInput'
+                      className='form-control formInput mb-3'
                       placeholder='Message'
                     ></textarea>
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}
                   </div>
                 </div>
-                <button className='submit-btn' type='submit'>
+                <button className='submit-btn contactBtn' type='submit'>
                   Submit
                 </button>
               </form>
