@@ -20,6 +20,7 @@ function Contact () {
   };
 
   return (
+    <>
     <div className='ContactForm'>
       <div className='container'>
         <div className='row'>
@@ -33,7 +34,7 @@ function Contact () {
                       type='text'
                       name='name'
                       {...register('name', {
-                        required: { value: true, message: 'Please enter your name' },
+                        required: { value: true },
                         maxLength: {
                           value: 30,
                           message: 'Please use 30 characters or less'
@@ -67,7 +68,7 @@ function Contact () {
                       type='text'
                       name='subject'
                       {...register('subject', {
-                        required: { value: true, message: 'Please enter a subject' },
+                        required: { value: true },
                         maxLength: {
                           value: 75,
                           message: 'Subject cannot exceed 75 characters'
@@ -105,6 +106,7 @@ function Contact () {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
