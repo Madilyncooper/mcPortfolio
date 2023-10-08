@@ -49,6 +49,9 @@ function About() {
                     <p>
                         As a queer, black woman in tech, I take pride in bridging the gap between marginalized
                         communities and the accessibility into this field.
+                        I firmly believe in the importance of building towards an equitable society. To me, 
+                        there are no greater tools than technology and creativity to build community between different
+                        people and cultures. 
                     </p>
                 </div>
 
