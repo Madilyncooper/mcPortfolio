@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './App.css';
-import Navigation from '../src/components/Navigation'
 import Home from './components/Home';
 import About from './components/About';
 import Hamburger from './components/Hamburger';
@@ -21,7 +20,7 @@ function App() {
         <Hamburger />
         <Routes>
           <Route
-            path="/mcPortfolio"
+            path="/"
             element={<Home />}
           />
           <Route
