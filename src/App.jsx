@@ -21,7 +21,7 @@ function App() {
         <Hamburger />
         <Routes>
           <Route
-            path="/"
+            path="/mcPortfolio"
             element={<Home />}
           />
           <Route

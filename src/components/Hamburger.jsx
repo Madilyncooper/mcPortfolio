@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Hamburger() {
   return (
-    <Link to="/">
+    <Link to="/mcPortfolio">
       <img
         className='burger'
         src={MenuIcon}
