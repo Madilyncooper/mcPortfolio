@@ -1,9 +1,9 @@
 {
-  "name": "mcportfolio",
+  "name": "mcPortfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://madilyncooper.github.io/mcportfolio/",
+  "homepage": "https://madilyncooper.github.io/mcPortfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
