@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://madilyncooper.github.io/mcPortfolio/",
+  "homepage": "https://madilyncooper.github.io/mcportfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
